@@ -233,6 +233,11 @@ ul li {
     gap: 30px;
 }
 
+.two-row{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;}
+
 .card {
     background-color: #1f1f1f;
     border-radius: 12px;

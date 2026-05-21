@@ -56,9 +56,9 @@
                     <p class="degree">Bachelor of Science in Computer Science</p>
                     <span class="date">May 2026</span>
                 </div>
-
                 <p class="edu-detail">Minor in Business</p>
-                <p class="edu-detail">Overall GPA: 3.92</p>
+                <p class="edu-detail">GPA: 3.93</p>
+                <p class="edu-detail">Graduated Summa Cum Laude  |  Phi Beta Kappa  |  UGA Presidential Scholar</p>
             </div>
 
             <div class="edu-item">
@@ -93,12 +93,6 @@
                 <dt>Athletic Director</dt>
                 <dd>December 2022 - December 2023</dd>
             </div>
-            <!-- <br>
-            <dt>Computer Science Intern: <a href="https://coresafety.com" target="_blank">Core Safety Group</a></dt>
-            <dd>May 2023 - August 2023</dd>
-            <br>
-            <dt>Computer Consultant: <a href="https://coresafety.com" target="_blank">Core Safety Group</a></dt>
-            <dd>May 2024 - Current</dd> -->
         </dl>
         </div>
         <div id="awards-col">
@@ -149,34 +143,64 @@
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <div class="three-col">
-            <div class="card">
-                <img src="images/moviebookingsite.png" alt="Movie Booking Site">
-                <h3>Movie Booking Site</h3>
-                <ul>
-                    <li>Configured database to store data relating to movies, theaters, and customers,</li>
-                    <li>Developed dynamic front end to create an easy experience for users to find and book movies.</li>
-                    <li>Developed separate interface to allow administrative users control the website.</li>
-                    <li>Integrated middleware to get and modify data from the database properly</li>
-                </ul>
+        <div class="two-row">
+            <div class="three-col">
+                <div class="card">
+                    <img src="images/moviebookingsite.png" alt="Movie Booking Site">
+                    <h3>Movie Booking Site</h3>
+                    <ul>
+                        <li>Configured database to store data relating to movies, theaters, and customers,</li>
+                        <li>Developed dynamic front end to create an easy experience for users to find and book movies.</li>
+                        <li>Developed separate interface to allow administrative users control the website.</li>
+                        <li>Integrated middleware to get and modify data from the database properly</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="images/hangry/dashboard.png" alt="Hangry Meal Planning Site">
+                    <h3>Hangry Meal Planning Site</h3>
+                    <ul>
+                        <li>Created database to store meals, ingredients, calendar elements, and customers,</li>
+                        <li>Developed front end to create an easy experience for users to create meal plans specific to their preferences.</li>
+                        <li>Mastered React to utilize reusable elements and fast realtime re-rendering.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="images/shellemulator.png" alt="Unix Shell Emulator">
+                    <h3>Unix Shell Emulator</h3>
+                    <ul>
+                        <li> Implemented a Unix shell emulator in C that supports basic shell commands, piping, and redirection.</li>
+                        <li>Utilized system calls and process management to execute commands and manage child processes safely.</li>
+                        <li>Handled edge cases and errors to ensure robust performance.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="card">
-                <img src="images/hangry/dashboard.png" alt="Hangry Meal Planning Site">
-                <h3>Hangry Meal Planning Site</h3>
-                <ul>
-                    <li>Created database to store meals, ingredients, calendar elements, and customers,</li>
-                    <li>Developed front end to create an easy experience for users to create meal plans specific to their preferences.</li>
-                    <li>Mastered React to utilize reusable elements and fast realtime re-rendering.</li>
-                </ul>
-            </div>
-            <div class="card">
-                <img src="images/shellemulator.png" alt="Unix Shell Emulator">
-                <h3>Unix Shell Emulator</h3>
-                <ul>
-                    <li> Implemented a Unix shell emulator in C that supports basic shell commands, piping, and redirection.</li>
-                    <li>Utilized system calls and process management to execute commands and manage child processes safely.</li>
-                    <li>Handled edge cases and errors to ensure robust performance.</li>
-                </ul>
+            <div class="three-col">
+                <div class="card">
+                    <img src="images/multicast.png" alt="Persistent Async Multicast System ">
+                    <h3>Persistent Async Multicast System </h3>
+                    <ul>
+                        <li>Built a coordinator-participant multicast system over TCP supporting async message delivery, persistence, and participant lifecycle management.</li>
+                        <li>Implemented coordinator logic to buffer messages for disconnected participants and guarantee no duplicate or out-of-order delivery</li>
+                        <li>Designed participant thread model with graceful reconnect and port reuse across sessions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="images/ftp.png" alt="Multithreaded FTP Client & Server">
+                    <h3>Multithreaded FTP Client & Server</h3>
+                    <ul>
+                        <li>Extended an FTP system to support concurrent multi-client server and parallel command execution on the client via background threads.</li> 
+                        <li>Implemented mutual exclusion and locking for file-level write conflicts and a terminate command channel on a dedicated port to gracefully cancel in-progress transfers.</li>
+                        <li>Managed command-ID lifecycle across threads for safe, coordinated teardown and file cleanup.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="images/consistenthashing.png" alt="Consistent Hashing Distributed Naming Service">
+                    <h3>Consistent Hashing Distributed Naming Service</h3>
+                    <ul>
+                        <li>Designed a distributed key-value naming service using consistent hashing to evenly distribute lookup load across nodes with minimal rehashing on membership changes</li>
+                        <li>Implemented virtual nodes and ring-based routing to balance load and support fault tolerance</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
